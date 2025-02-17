@@ -1,0 +1,36 @@
+# Ignore node_modules in all subdirectories
+**/node_modules/
+
+# Ignore environment files (secrets & configs)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Ignore logs
+**/logs/
+**/*.log
+**/debug.log
+**/error.log
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# Ignore MongoDB local database files (if using locally)
+**/data/
+**/dump/
+
+# Ignore OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore build and coverage directories
+**/dist/
+**/build/
+**/coverage/
